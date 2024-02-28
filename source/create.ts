@@ -22,6 +22,9 @@ const delay = async (ms: number) => new Promise(resolve => {
 	setTimeout(resolve, ms);
 });
 
+
+
+
 const isGotInstance = (value: Got | ExtendOptions): value is Got => is.function_(value);
 
 const aliases: readonly HTTPAlias[] = [
